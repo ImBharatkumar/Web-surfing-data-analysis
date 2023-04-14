@@ -13,17 +13,19 @@ DomainCategory: The category of the website the web surfer is visiting (e.g. new
 Installation_day: The day when the web surfer installed the browser or app used to surf the web.
 Pageviews: The number of pages the web surfer has visited.
 device_type: The type of the device used to surf the web (e.g. iOS, Android, Windows).
-Analysis
+
+# Analysis
 The analysis of the web surfing data is done using Python 3. The main script is called web_surfing_analysis.py. It reads the data from the web_surfing_data.csv file, cleans it, and performs various analyses. The results of the analysis are printed to the console and saved in various files, such as country_analysis.txt, domain_analysis.txt, and device_analysis.txt.
 
-Dependencies
+# Dependencies
 The following Python libraries are required to run the analysis:
 
 pandas
 numpy
 matplotlib
 seaborn
-Running the Analysis
+
+# Running the Analysis
 To run the analysis, follow these steps:
 
 Clone this repository to your local machine.
